@@ -11,6 +11,12 @@ const port = process.env.PORT || 8000;
 // Database connection
     connectDB();
 
+    // Cors Setup
+const corsOption = {
+    origin: process.env.ALLOWED_DOMAINS
+}
+
+app.use(cors(corsOption));
 
 // parse application/json
 app.use(express.json());
