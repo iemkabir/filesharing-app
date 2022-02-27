@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body, html {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+    font-size: 20px;
+    line-height: 3;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+  }
+
+.Image {
+  background-image: url("/public/images/391862.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.DropBoxParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f8ff29;
+  border: dotted;
+  border-radius: 15px;
+  padding: 100px 0px 100px 0px;
+}
+
+.DropBoxParent:hover {
+  cursor: pointer;
+}
+
+.DropBoxDiv {
+  margin: 60px;
+  background: #eee0;
+  padding: 80px;
+  border: dotted;
+  border-radius: 10px;
+}
+
+h5 {
+  color: #ffffffb3;
+}
+
+.formData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 100px;
+  width: 80%;
+}
+
+.DownloadButtonParentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+}
+
+input {
+  padding: 15px;
+  width: 60%;
+  border: none;
+  background: none;
+  outline: none;
+}
+.DownloadEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #00000073 50%, #00000073 50%);
+}
+.inputOutline{
+    width: 60%;
+    height: 2px;
+    background: #afadad;
+    margin-top: -35px;
+}
+
+.hideCol{
+  display: none;
+}
+
+.fade-in {
+	animation: fadeIn 4s;
+  	opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
+.progressBar {
+  height: 30px;
+  width: 100%;
+  background: #f0f8ff24;
+  border-radius: 10px;
+}
+
+.progressBarCount {
+  width: 25%;
+  height: 30px;
+}
+
+
+.formData input{
+    width: 60%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.DownloadDiv{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.shareDiv1{
+  width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background:white;
+   margin-bottom: 20px;
+}
+.shareDiv1 img{
+  width: 30px;
+}
+
+.DownloadDiv h4{
+  color: white;
+  font-size: 20px;
+}
+
+
+.sendBtn {
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.sendBtn:hover{
+  background-color: black;
+  color: white;
+}
+
+.formData input{
+  color: white;
+  font-size: 20px;
+}
+.downloadBtn{
+    width: 35%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+   
+}
+
+.addDrag{
+    background-color: white;
+}
+
+.shareDiv1 input{
+  padding: 8px;
+    width: 60%;
+    border: none;
+}
+
+.downloadBox {
+  margin-top: 200px;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.FileDetails{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fileInput{
+  outline: none;
+  border: none;
+}
+
+.downloadBox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px solid;
+    background-color: #00000099;
+}
+
+.downloadBtn{
+  background: #0000006e;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.downloadBtn:hover{
+  background: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+.myInput{
+  color: black;
+  outline: none;
+  border: none;
+  background-color: none;
+}
+
+.copyImage{
+  cursor: pointer;
+}
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

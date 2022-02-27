@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+}
+body{
+    background-color: #93dbfb;
+    max-width: 700vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 20px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.drop-box{
+    border: 2px dashed #90d0e6;
+    border-radius: 10px;
+    margin: 70px 40px 0px 40px;
+    padding: 20px;
+    min-height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dropbox-back {
+    background-color: #9ee0ff;
+    border: #34b3e9 dashed;
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    flex-direction: column;
+    margin: 25px 42px 20px 38px;
+}
+
+.progress-bar{
+    background-color: #c6e3f0;
+    margin: 0px;
+}
+
+.progress input{
+}
+
+.inpt1 {
+    display: none;
+}
+
+.icon-containder img {
+    width: 50px;
+}
+
+.icon-containder {
+    width: 55px;
+    height: 60px;
+}
+
+.icon-containder img:hover{
+    width: 52px;
+    transition:  5ms ease;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Download{
+    color: black;
+    padding: 10px;
+    background-color: rgb(140, 216, 252);
+    outline: none;
+    border: 0px;
+    font-family: system-ui;
+    display: none;
+    margin-top: 10px;
+    border-radius: px;
+}
+
+.Download:hover{
+    background-color: black;
+    color: rgb(140, 216, 252);
+    cursor: pointer;
+}
+.Download:visited{
+    color: black;
+    background-color: rgb(140, 216, 252);
+}
+
+.inputClass{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myInput{
+    width: 80%;
+    height: 30px;
+    display: none;
+}
+
+.DownloadMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.image-icon2{
+    margin-top: 30px;
+}
+
+.DownloadBTn{
+    color: #000000;
+    padding: 10px;
+    background-color: rgb(140, 216, 252);
+    outline: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: system-ui;
+    margin-top: 40px;
+}
+
+.DownloadBTn:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+
+.myPara{
+    font-size: 15px;
+    margin-bottom: -20px;
+    color: #4f5152;
+    display: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+{
+    "_id": "620f3c6ac9e48476ac513d96",
+    "filename": "1645165674045--123.jpg",
+    "path": "image\\1645165674045--123.jpg",
+    "size": 1554388,
+    "uuid": "2fcfd2be-b0b2-4f8e-80ff-2ba1b290ec7e",
+    "createdAt": "2022-02-18T06:27:54.333Z",
+    "updatedAt": "2022-02-18T06:27:54.333Z",
+    "__v": 0
+}
