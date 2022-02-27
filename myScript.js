@@ -3,9 +3,6 @@ const fs = require('fs');
 const connectDB = require("./databse/dbconnect");
      connectDB();
 
-
-
-
 async function fetchAndDelete(){
     try{
         const checkDate = new Date();
