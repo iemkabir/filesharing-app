@@ -1,3 +1,4 @@
+require('dotenv').config()
 const router = require("express").Router();
 const Files = require("../databse/mydb");
 const path = require("path");
